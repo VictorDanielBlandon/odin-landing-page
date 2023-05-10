@@ -16,6 +16,7 @@ body{
 #header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-link{
@@ -55,12 +56,42 @@ p{
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left,
 .content-right{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
 }
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #e9e7eb;
+}
+
+.sign-up-1st{
+    background-color: #3882f6;
+    color: #e9e7eb;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up-1st{border-radius: 12px;}
