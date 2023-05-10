@@ -40,3 +40,27 @@ ul{
     justify-content: center; /*horizontal alignment*/
     align-items: center; /*vertical alignment*/
 }
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 18px;
+    color: #e9e7eb;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left,
+.content-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
