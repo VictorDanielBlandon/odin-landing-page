@@ -219,7 +219,20 @@ img{
     font-weight: bold;
     border-radius: 10px;
 }
-
-
-
 /*section-4 css style-sheet end*/
+
+/*footer start*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 50px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 18px;
+}
+
+/*footer finish*/
