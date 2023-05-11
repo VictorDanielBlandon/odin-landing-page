@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 /*section-1 css stylesheet begin*/
 
 *{
@@ -137,3 +138,31 @@ img{
     height: 200px;
     border-radius: 10px;
 }
+
+/*section-2 css style-sheet end*/
+
+/*section-3 css style-sheet start*/
+
+.section-3{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quotee{
+    font-size: 18px;
+    color: black;
+    margin-left: 1200px;
+}
+
+/*section-3 css style-sheet end*/
