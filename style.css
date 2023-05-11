@@ -166,3 +166,60 @@ img{
 }
 
 /*section-3 css style-sheet end*/
+
+/*section-4 css style-sheet start*/
+
+.section-4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-blue-box{
+    background-color: #3882f6;
+    height: 40%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left-part{
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mini-title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.mini-text{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attention-grabber{
+    background-color: #3882f6;
+    color: #e9e7eb;
+    width: 120px;
+    height: 40px;
+    border: 3px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+/*section-4 css style-sheet end*/
